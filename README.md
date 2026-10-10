@@ -14,7 +14,7 @@ The repository follows the laboratory structure prescribed in the course manual 
 
 | Lab | Unit / Focus | Planned Experiments | Status |
 | :--- | :--- | :--- | :---: |
-| **Lab 1** | AI Problem Formulation & Intelligent Problem Solving | Production Systems, Water Jug Problem, Vacuum Cleaner Problem, Rule-Based Decision Making, Missionaries & Cannibals | ⏳ Planned |
+| **Lab 1** | AI Problem Formulation & Intelligent Problem Solving | Production Systems, Water Jug Problem, Vacuum Cleaner Problem, Rule-Based Decision Making, Missionaries & Cannibals | 🔄 In Progress |
 | **Lab 2** | Heuristic Search Algorithms | Generate and Test, BFS, DFS, Hill Climbing, Best First Search, A* Search; Maze Solver, Graph Traversal, Route Planning, Robot Navigation, 8-Puzzle Solver | ⏳ Planned |
 | **Lab 3** | AI Programming Frameworks & Data Preparation | NumPy, Pandas, Matplotlib, Scikit-learn, Dataset Loading, EDA, Data Cleaning, Missing Value Handling, Label Encoding, Feature Selection, Data Visualization | ⏳ Planned |
 | **Lab 4** | Knowledge Representation & Logical Reasoning | Rule-Based Knowledge Representation, Predicate Representation, Semantic Networks, Frames, Conceptual Dependency, Logical Inference | ⏳ Planned |
@@ -27,13 +27,13 @@ The repository follows the laboratory structure prescribed in the course manual 
 ## 📂 Lab-wise Structure
 
 ### Lab 1 — AI Problem Formulation & Intelligent Problem Solving
-**Status:** ⏳ Planned
+**Status:** 🔄 In Progress
 
 #### Experiments
 ```text
 Lab1/
 ├── 01_production_system/
-├── 02_water_jug/
+├── 02_water_jug/                    # ✅ Completed
 ├── 03_vacuum_cleaner/
 ├── 04_rule_based_decision/
 ├── 05_missionaries_and_cannibals/
@@ -372,7 +372,7 @@ Lab 7: Explainable & Adversarial AI
 
 | Laboratory | Status |
 | :--- | :---: |
-| **Lab 1** | ⏳ Planned |
+| **Lab 1** | 🔄 In Progress |
 | **Lab 2** | ⏳ Planned |
 | **Lab 3** | ⏳ Planned |
 | **Lab 4** | ⏳ Planned |
@@ -384,6 +384,6 @@ Lab 7: Explainable & Adversarial AI
 
 ## 📍 Repository Status
 
-**Current milestone:** Repository initialized. Laboratory sessions will be added progressively as corresponding units are implemented.
+**Current milestone:** Lab 1 in progress (Experiment 02 Water Jug Problem completed).
 
 The remaining laboratory sessions will be added progressively as the corresponding units are covered and implemented.
