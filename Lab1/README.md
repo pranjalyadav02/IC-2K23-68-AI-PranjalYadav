@@ -1,27 +1,38 @@
-# Lab 1 — AI Problem Formulation & Intelligent Problem Solving
+# Lab 1: AI Problem Formulation & Intelligent Problem Solving
 
 ## Overview
-This laboratory covers AI problem formulation, state-space representation, production systems, and rule-based decision making.
+This laboratory covers state-space problem formulation, constraint satisfaction, production rules, and state transitions across three classic AI problems:
 
 ---
 
-## 📂 Laboratory Experiments
+## 📂 Laboratory Problems
 
-| # | Experiment | Directory | Status |
+| Problem # | Title | Directory | Status |
 | :---: | :--- | :--- | :---: |
-| 01 | Production Systems | `01_production_system/` | ⏳ Planned |
-| 02 | Water Jug Problem | [`02_water_jug/`](./02_water_jug/) | ✅ Completed |
-| 03 | Vacuum Cleaner Problem | `03_vacuum_cleaner/` | ⏳ Planned |
-| 04 | Rule-Based Decision Making | `04_rule_based_decision/` | ⏳ Planned |
-| 05 | Missionaries & Cannibals | `05_missionaries_and_cannibals/` | ⏳ Planned |
+| 01 | Water Jug Problem | [`01_water_jug/`](./01_water_jug/) | Completed |
+| 02 | Missionaries & Cannibals Problem | [`02_missionaries_and_cannibals/`](./02_missionaries_and_cannibals/) | Completed |
+| 03 | Classical Sudoku Problem | [`03_classical_sudoku/`](./03_classical_sudoku/) | Completed |
 
 ---
 
-## 🧪 Completed Experiments
+## Summary of Problems
 
-### 02 — Water Jug Problem
-- **Code:** [`water_jug.py`](./02_water_jug/water_jug.py)
-- **Documentation:** [`description.md`](./02_water_jug/description.md)
-- **Approach:** Simulation using state transitions and a hash set for cycle detection.
-- **Complexity:** Time $\mathcal{O}(x \times y)$, Space $\mathcal{O}(x \times y)$.
-- **Status:** All 32 test cases passed (0 ms, beats 100.00%).
+### 1. Water Jug Problem (`01_water_jug/`)
+- **Focus:** State space representation, transition operators, and cycle prevention.
+- **Files:**
+  - `water_jug.py`: Step-by-step state simulation using hash set for cycle detection.
+  - `Water_Jug- Using Gcd.py`: Solvability check via GCD and Bézout's identity.
+  - `README.md`: Problem documentation and run instructions.
+
+### 2. Missionaries and Cannibals Problem (`02_missionaries_and_cannibals/`)
+- **Focus:** River crossing puzzle with safety and capacity constraints.
+- **Files:**
+  - `Missionaries & Cannibals.py`: Interactive command-line simulation.
+  - `Missionaries & Cannibals_check.py`: Recursive backtracking (DFS) solver.
+  - `README.md`: Problem documentation and run instructions.
+
+### 3. Classical Sudoku Problem (`03_classical_sudoku/`)
+- **Focus:** Constraint satisfaction problem (CSP) and recursive search.
+- **Files:**
+  - `classical_sudoku.py`: Tkinter-based interactive GUI game with puzzle generator and validator.
+  - `README.md`: Problem documentation and run instructions.
