@@ -1,12 +1,21 @@
 def solve(m, c, ml, cl, boat, path, visited):
     if ml == 0 and cl == 0:
         print("Solution possible")
-        for step, (left_m, left_c, boat) in enumerate(path):
-            print(
-                f"Step {step}: Left bank: {left_m} M, {left_c} C | "
-                f"Right bank: {m - left_m} M, {c - left_c} C"
-            )
-        print("Total steps:", len(path) - 1)
+        step = 0
+        for state in path:
+            left_m = state[0]
+            left_c = state[1]
+            right_m = m - left_m
+            right_c = c - left_c
+            if state[2] == 0:
+                boat_side = "Left"
+            else:
+                boat_side = "Right"
+            print("Step", step, ": Left bank:", left_m, "M,", left_c,
+                  "C | Right bank:", right_m, "M,", right_c,
+                  "C | Boat:", boat_side)
+            step += 1
+        print("Total steps:", step - 1)
         return True
 
     moves = [(1, 0), (2, 0), (0, 1), (0, 2), (1, 1)]
